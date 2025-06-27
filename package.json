@@ -1,0 +1,21 @@
+{
+  "name": "qwe",
+  "version": "1.0.0",
+  "description": "my first app",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "node --watch ./src/server.js",
+    "start": "node ./src/server.js"
+  },
+  "author": "jose",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^6.10.1",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "prisma": "^6.10.1"
+  }
+}
